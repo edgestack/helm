@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  netperf:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-02-04T22:12:05.927740725Z"
+    description: A Helm chart for measuring the container network performance.
+    digest: d87ad0cd39e1a0afd03987741de39fb0951f7f0d5a6d53ee6d9d40af2fc96415
+    icon: https://github.com/edgestack/helm/raw/master/assets/netperf.png
+    keywords:
+    - network
+    - iperf
+    maintainers:
+    - name: Jian Li
+      url: https://github.com/edgestack/helm
+    name: netperf
+    sources:
+    - https://github.com/edgestack/netperf-helm
+    urls:
+    - netperf-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-02-04T22:12:05.927209816Z"
