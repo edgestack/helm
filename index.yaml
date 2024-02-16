@@ -1,12 +1,35 @@
 apiVersion: v1
 entries:
+  chatbot:
+  - annotations:
+      category: AI
+      licenses: Apache-2.0
+    apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-02-16T04:57:28.743763467Z"
+    description: A Helm chart for providing LLM based Chatbot UI.
+    digest: 643ea5bfe194da7cb6a524bf5ae816fc22060ec02bfa748d1469a4b930c7b0ad
+    icon: https://github.com/edgestack/helm/raw/master/assets/chatbot.png
+    keywords:
+    - LLM
+    - GenAI
+    - Chatbot
+    maintainers:
+    - name: Jian Li
+      url: https://github.com/edgestack/helm
+    name: chatbot
+    sources:
+    - https://github.com/edgestack/chatbot-helm
+    urls:
+    - chatbot-1.0.0.tgz
+    version: 1.0.0
   netperf:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v1
     appVersion: "1.1"
-    created: "2024-02-16T02:17:22.868045523Z"
+    created: "2024-02-16T04:57:28.744080767Z"
     description: A Helm chart for measuring the container network performance.
     digest: 1b5ebac7e6ff8f89ee8d9cc4f9fb9074a2ee0038ce222c6ab35da6d28686aad5
     icon: https://github.com/edgestack/helm/raw/master/assets/netperf.png
@@ -22,4 +45,4 @@ entries:
     urls:
     - netperf-1.1.0.tgz
     version: 1.1.0
-generated: "2024-02-16T02:17:22.867543468Z"
+generated: "2024-02-16T04:57:28.742554747Z"
