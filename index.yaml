@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v1
     appVersion: "1.0"
-    created: "2024-02-16T05:25:40.959406038Z"
+    created: "2024-02-16T06:24:01.533782774Z"
     description: A Helm chart for providing LLM based Chatbot UI.
     digest: 643ea5bfe194da7cb6a524bf5ae816fc22060ec02bfa748d1469a4b930c7b0ad
     icon: https://github.com/edgestack/helm/raw/master/assets/chatbot.png
@@ -26,9 +26,9 @@ entries:
   local-ai:
   - apiVersion: v2
     appVersion: "1.4"
-    created: "2024-02-16T05:25:40.959982596Z"
+    created: "2024-02-16T06:24:01.534319719Z"
     description: A Helm chart for deploying LocalAI to a Kubernetes cluster
-    digest: 25d86120e2752ae2e0d45d956b92ed56b156f861be91e531415de9bd702b73c9
+    digest: b36558f7c2147d4672ba29b4f602aba80f19d2ed5315c41b895bab996cae5617
     icon: https://github.com/edgestack/helm/raw/master/assets/localai.png
     keywords:
     - localai
@@ -39,15 +39,15 @@ entries:
     - https://github.com/go-skynet/helm-charts
     type: application
     urls:
-    - local-ai-3.1.1.tgz
-    version: 3.1.1
+    - local-ai-3.1.2.tgz
+    version: 3.1.2
   netperf:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v1
     appVersion: "1.1"
-    created: "2024-02-16T05:25:40.960321269Z"
+    created: "2024-02-16T06:24:01.534615292Z"
     description: A Helm chart for measuring the container network performance.
     digest: 1b5ebac7e6ff8f89ee8d9cc4f9fb9074a2ee0038ce222c6ab35da6d28686aad5
     icon: https://github.com/edgestack/helm/raw/master/assets/netperf.png
@@ -63,4 +63,4 @@ entries:
     urls:
     - netperf-1.1.0.tgz
     version: 1.1.0
-generated: "2024-02-16T05:25:40.958937682Z"
+generated: "2024-02-16T06:24:01.532906601Z"
